@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>WebGL Wave Simulation</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="waves.css" rel="stylesheet" type="text/css">
+        <style media="screen">
+        body {
+          background-color: #465567;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div id="overlay"></div>
+        <div id="ui">
+            <div id="camera">
+                <canvas id="profile" width="350" height="105"></canvas>
+                <div id="length"></div>
+                <div id="end"></div>
+                <div id="wind">
+                    <span id="wind-speed"></span><span id="wind-unit"> goals/s</span>
+                    <div id="wind-label">Motivation</div>
+                </div>
+
+                <div id="size">
+                    <span id="size-value"></span><span id="size-unit"> m</span>
+                </div>
+                <div id="size-label">Simulation SIZE</div>
+                <div id="choppiness"></div>
+                <div id="choppiness-label">Knoledge</div>
+            </div>
+        </div>
+        <canvas id="simulator"></canvas>
+
+        <div id="error">Your browser does not appear to support the required technologies.</div>
+        <script src="shared.js"></script>
+        <script src="simulation.js"></script>
+        <script src="ui.js"></script>
+        <script src="waves.js"></script>
+    </body>
+</html>
