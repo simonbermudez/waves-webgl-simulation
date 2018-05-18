@@ -10,6 +10,10 @@
         body {
           background-color: #465567;
         }
+        img.animated-gif{
+          width: 120px;
+          height: auto;
+        }
         </style>
     </head>
 
@@ -35,7 +39,9 @@
         </div>
         <canvas id="simulator"></canvas>
 
-        <div id="error">Your browser does not appear to support the required technologies.</div>
+        <div id="error">
+          <img class="animated-gif" src="waves.gif">
+        </div>
         <script src="shared.js"></script>
         <script src="simulation.js"></script>
         <script src="ui.js"></script>
