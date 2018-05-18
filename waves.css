@@ -36,14 +36,14 @@ canvas {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400px;
-    color: #333333;
+    color: #ffffff;
     text-align: center;
 }
 a:link {
-    color: #333333;
+    color: #ffffff;
 }
 a:visited {
-    color: #333333;
+    color: #ffffff;
 }
 
 #length {
@@ -74,7 +74,7 @@ a:visited {
     position: absolute;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    color: #333333;
+    color: #ffffff;
     width: 300px;
     text-align: center;
     -webkit-transform-origin: center top;
@@ -96,7 +96,7 @@ a:visited {
     font-size: 35px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #333333;
+    color: #ffffff;
     width: 300px;
     text-align: center;
     -webkit-transform-origin: center top;
@@ -111,7 +111,7 @@ a:visited {
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #333333;
+    color: #ffffff;
     text-align: center;
     -webkit-transform-origin: center top;
     transform-origin: center top;
@@ -121,7 +121,7 @@ a:visited {
 
 #size {
     position: absolute;
-    color: #333333;
+    color: #ffffff;
     font-size: 50px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -147,7 +147,7 @@ a:visited {
 
 #choppiness {
     position: absolute;
-    color: #333333;
+    color: #ffffff;
     font-size: 55px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -164,28 +164,11 @@ a:visited {
     font-size: 45px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #333333;
+    color: #ffffff;
     width: 300px;
     text-align: center;
     -webkit-transform-origin: center top;
     transform-origin: center top;
     -webkit-transform: translate3d(-1400px, 0px, 175px) rotateX(90deg);
     transform: translate3d(-1400px, 0px, 175px) rotateX(90deg);
-}
-
-#footer {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #333333;
-    font-size: 16px;
-    z-index: 3;
-}
-
-#footer a {
-    text-decoration: underline;
-    color: #333333;
 }
