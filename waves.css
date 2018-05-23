@@ -27,18 +27,6 @@ canvas {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
-#error {
-    position: absolute;
-    display: none;
-    top: 20px;
-    width: 100%;
-    z-index: 2;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400px;
-    color: #ffffff;
-    text-align: center;
-}
 a:link {
     color: #ffffff;
 }
